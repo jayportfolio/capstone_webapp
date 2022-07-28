@@ -42,7 +42,6 @@ def response(*, mimetype: str = None, template_file: str = None):
 
     return response_inner
 
-
 #
 # def template(template_file: str = None):
 #     def template_inner(f):
